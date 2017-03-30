@@ -9,27 +9,20 @@ p{
     padding-top: 36px;
     position: fixed;
     margin-left: 60px;
-    line-height: 175%;
-
-    
+    line-height: 175%;   
 }
 
 .bottomtext{
     padding-top: 75;
         position:absolute;
 }
-
 .resume{
     padding-top: 240;
         margin-left: 60px;
 
     position: absolute;
         padding-left: 125px;
-  
-
 }
-
-
 
 ul {
     list-style-type: none;
@@ -39,7 +32,6 @@ ul {
     padding-bottom: 0px;
     width: 60px;
 }
-
 li a {
     display: block;
     color: black;
@@ -48,25 +40,13 @@ li a {
     line-height: 175%;
 }
 
-
 .navigation {
     padding-top: 32px;
 }
-
 .projects{
     position: fixed; padding: inherit;
     
 }
-
-.current{
-    background-color: darkgrey;
-    width: 33px;
-}
-
-
-img{
-    display: none
- }
 
 a{
        display: block;
@@ -75,6 +55,41 @@ a{
     line-height: 175%;
     
 }
+
+.currenthome{
+    background-color: darkgrey;
+    width: 33px;
+}
+.currentabout{
+    background-color: darkgrey;
+    width: 33px;
+}
+.currentforce{
+      background-color: darkgrey;
+    width: 30px;  
+}
+.currentinternal{
+      background-color: darkgrey;
+    width: 45px;  
+}
+.currentmisc{
+      background-color: darkgrey;
+    width: 85px;  
+}
+.currentphoto{
+      background-color: darkgrey;
+    width: 74px;  
+}
+.currentunity{
+      background-color: darkgrey;
+    width: 30px;  
+}
+
+
+
+img{
+    display: none
+ }
 
 a.force:hover + img{
     display: block;
