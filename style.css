@@ -49,7 +49,7 @@ li a {
 }
 
 a{
-       display: block;
+    display: block;
     color: black;
     font-family: Swis721 LtCn BT;
     line-height: 175%;
@@ -122,8 +122,19 @@ a.misc:hover + img{
     bottom:30px;
 }
 
+a.finalmodel:hover + img{
+    display: block;
+    position: fixed;
+    right:100px;
+    bottom:0px;
+    
+}
 
-
-
+.finalmodel{
+    padding-left: 185px;
+    position: fixed;
+    padding-top: 52px;
+    margin-left: 100px;
+}
 
 
